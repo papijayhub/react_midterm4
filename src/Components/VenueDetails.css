@@ -1,0 +1,79 @@
+.right-table{
+    width: 100%;
+    /* background-color: blue; */
+    text-align: center;
+}
+.right-head{
+    color: white;
+    background-color: black;
+}
+.venue-details{
+    width: 100%;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.stream {
+    /* background-color: brown; */
+    /**
+     * Lay out the children of this container with
+     * flexbox.
+     */
+    display: flex;
+  
+    /*
+     * Set the main axis to be vertical, but present
+     * the children in reverse order of that in which
+     * they occur in the DOM.
+     */
+    flex-direction: column-reverse;
+  }
+  
+  .post{
+    width: 100%;
+    border: 3px solid black;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    /* background-color: rgb(68, 103, 103); */
+  }
+  .postUser{
+    /* background-color: rgb(118, 89, 54); */
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+  }
+  .postUser_portrait{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+  }
+  .userimage{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  .postUser__name{
+    /* display: flex; */
+    flex-direction: row;
+    height: 43px;
+    color: whitesmoke;
+    font-size: 15px;
+    background-color: rgb(118, 89, 54);
+  }
+  .postBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .postBody_content{
+    display: flex;
+    flex-direction: row;
+  }
+  .postBody_date{
+    display: flex;
+    flex-direction: row;
+  }
